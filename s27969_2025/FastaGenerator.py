@@ -120,3 +120,6 @@ def main():
     for n, pct in freqs.items():  # iteracja po nukleotydach
         print(f"{n}: {pct:.1f}%")
     print(f"%CG: {ratio_cg:.1f}")
+
+if __name__ == '__main__':
+        main()    
